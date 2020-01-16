@@ -1,0 +1,20 @@
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-cont .main-card {
+    height: 375px;
+    width: 350px;
+    border: 2px solid #000000;
+    flex-direction: row;
+    flex-basis: 20%;
+}
+
+.main-cont .main-card .product-cont {
+    display: flex;  
+}
+
+
+
+

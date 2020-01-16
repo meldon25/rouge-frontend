@@ -1,0 +1,85 @@
+.header-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-container .topnav {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+}
+
+.right-arrow {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    width: 1px;
+    margin-top: 28px;
+    margin-left: 35.5em;
+    height: 1px;
+    cursor: pointer;
+    border: solid white;
+    border-width: 0 2.5px 2.5px 0;
+    padding: 3px;
+    transform: rotate(-45deg);
+    transition: transform ease-in .1s;  
+}
+
+.header-container .topnav .hamburger-menu .dropbtn .hamburger-icon {
+    display: inline-block;
+}
+
+.header-container .topnav .title-header {
+    margin-right: 12em;
+    font-size: 40px;
+    margin-block-start: 0;
+    margin-top: 10px;
+}
+.header-container .topnav .disc-container {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 33em;
+    margin-top: 22px;
+    font-weight: 550;
+}
+
+.drop-down-cont .burger-drop-menu .list {
+    display: block;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.drop-down-cont .burger-drop-menu .list:hover {
+    cursor: pointer;
+}
+
+
+
+.header-container .hamburger-icon{
+    width: 34px;
+    height: 34px;
+    margin-top: 15px;
+}
+.drop-down-cont {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.drop-down-cont .burger-drop-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.drop-down-cont .burger-drop-menu .active {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+

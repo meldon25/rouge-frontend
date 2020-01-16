@@ -1,0 +1,71 @@
+button {
+    margin-top: 50px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 13em;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.signin-cont {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 6px solid red;
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.signin-cont .form-cont h2 {
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    text-align: center;
+    margin-block-start: 0;
+}
+
+.signin-cont .form-cont p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    
+}
+.signin-cont .form-cont .username {
+    margin-bottom: 40px;
+}
+input {
+    margin-left: 20%;
+    height: 30px;
+    width: 28em;
+    border: 1.5px solid black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3px;
+}
+input::placeholder {
+    padding-left: 3px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.signin-cont .form-cont .username label {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-bottom: 15px;
+}
+.signin-cont .form-cont .pwd label {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-bottom: 15px;
+}
