@@ -4,21 +4,46 @@ import axios from 'axios'
 import '../styles/productcard.css'
 
 
-export default ({ product }) => {
+export default class ProductCard extends Component {
+    constructor(props) {
+        super(props)
 
-
-    addToWishlist = async (id) => {
-        await axios.post('/wishlist', id)
-
+        this.state = {
+            product: this.props.product,
+            onDelete: this.props.onDelete
+        }
     }
-    return (
-    <>
-    <div className="main-card">
-        <img className="product-img" src={product.image} />
-        <p className="color-desc">{product.color}</p>
-        <p className="price-desc">{product.price}</p>
-        <button className="price-desc">Add to Wishlist</button>
-    </div>
-    </>
-    )
+    addToWishlist = async (id) => {
+        console.log(this)
+        const data = {
+          user_id: 1,
+          product_id: id
+        }
+        await axios.post('/wishlists', data)
+    
+      }
+
+      
+
+      render() {
+          console.log(this.props)
+        return (
+            <>
+            <div className="main-card">
+                <div className="card-cont">
+                <img className="product-img" src={this.state.product.image} />
+                <p className="color-desc">{this.state.product.color}</p>
+                <p className="price-desc">{this.state.product.price}</p>
+                </div>
+                <div className="button-cont">
+                <button onClick={() => this.addToWishlist(this.state.product.id)} className="price-button">Add to Wishlist</button>
+                <button onClick={() => this.props.handleDelete(this.state.product)} className="price-button">Delete</button>
+                </div>
+            </div>
+            </>
+            )
+
+      }
+ 
+    
 }

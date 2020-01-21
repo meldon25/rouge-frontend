@@ -19,7 +19,7 @@ function App() {
         <Route exact path='/' render={()=> (
           <>
             <Hero />
-            <Container />
+            {/* <Container /> */}
             <Footer />
           </>
         )}/>

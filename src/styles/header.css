@@ -7,7 +7,7 @@
 .header-container .topnav {
     position: absolute;
     z-index: 999;
-    color: white;
+    color: lightgrey;
     margin-left: 30px;
     display: flex;
 }
@@ -17,11 +17,11 @@
     z-index: 999;
     display: flex;
     width: 1px;
-    margin-top: 28px;
-    margin-left: 35.5em;
+    margin-top: 32px;
+    margin-left: 39em;
     height: 1px;
     cursor: pointer;
-    border: solid white;
+    border: solid lightgrey;
     border-width: 0 2.5px 2.5px 0;
     padding: 3px;
     transform: rotate(-45deg);
@@ -33,7 +33,7 @@
 }
 
 .header-container .topnav .title-header {
-    margin-right: 12em;
+    margin-right: 14em;
     font-size: 40px;
     margin-block-start: 0;
     margin-top: 10px;
@@ -41,8 +41,8 @@
 .header-container .topnav .disc-container {
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 33em;
-    margin-top: 22px;
+    margin-right: 40em;
+    margin-top: 24px;
     font-weight: 550;
 }
 

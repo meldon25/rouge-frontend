@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import ProductCard from './ProductCard'
 import axios from 'axios'
 import ProductContainer from './ProductContainer';
@@ -6,9 +6,9 @@ import ProductContainer from './ProductContainer';
 class Container extends Component {
     constructor(props) {
         super(props);
-        this.state = { 
+        this.state = {
             products: []
-         }
+        }
     }
 
     componentDidMount() {
@@ -20,17 +20,20 @@ class Container extends Component {
         this.setState({
             products: [...product.data]
         })
-        console.log("Hello",this.state.products)
+        console.log("Hello", this.state.products)
     }
-    
 
-    render() { 
+
+    render() {
         return (
-        <>
-         <ProductContainer products={this.state.products} />
-         </>
+            <>
+                <ProductContainer
+                    products={this.state.products}
+                    getProducts={this.getProducts}
+                />
+            </>
         )
     }
 }
- 
+
 export default Container
