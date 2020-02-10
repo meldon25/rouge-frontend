@@ -18,7 +18,7 @@
     display: flex;
     width: 1px;
     margin-top: 32px;
-    margin-left: 39em;
+    margin-left: 40.7em;
     height: 1px;
     cursor: pointer;
     border: solid lightgrey;
@@ -41,7 +41,7 @@
 .header-container .topnav .disc-container {
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 40em;
+    margin-right: 39em;
     margin-top: 24px;
     font-weight: 550;
 }
@@ -71,7 +71,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Open Sans', sans-serif;
 } 
 

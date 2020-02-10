@@ -37,7 +37,7 @@ export default class ProductCard extends Component {
                 </div>
                 <div className="button-cont">
                 <button onClick={() => this.addToWishlist(this.state.product.id)} className="price-button">Add to Wishlist</button>
-                <button onClick={() => this.props.handleDelete(this.state.product)} className="price-button">Delete</button>
+                {/* <button onClick={() => this.props.handleDelete(this.state.product)} className="price-button">Delete</button> */}
                 </div>
             </div>
             </>

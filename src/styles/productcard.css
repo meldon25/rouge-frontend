@@ -1,17 +1,18 @@
 .main-card {
     display: inline-flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 60px;
 }
 
 .main-card .product-img {
     display: flex;
-    width: 350px;
-    height: 375px;
+    width: 21em;
+    height: 25em;
     margin-left: 70px;
     margin-right: 20px;
     margin-top: 80px;
-    display: flex;
-    flex-direction: row;
     border: 2px solid black;
 }
 
@@ -26,11 +27,14 @@
 }
 .main-card .button-cont {
     display: flex;
-    flex-direction: column;
+    height: 7 em;
+    flex-direction: row;
+    margin-left: 68px;
 }
 .main-card .price-button { 
     margin-left: 0;
     display: flex;
+    justify-content: center;
 } 
 .main-card .price-button:nth-child(2) { 
     margin-left: 0;

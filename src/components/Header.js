@@ -44,7 +44,7 @@ class Header extends Component {
         <li className="list"><NavLink activeClassName="active" to="/login">Login</NavLink></li>
         <li className="list"><NavLink activeClassName="active" to="/register">Register</NavLink></li>
         <li className='nav-link'><NavLink className="wishlist-nav" to="/wishlist">Wishlist</NavLink></li>
-        {/* <li className='nav-link'><NavLink className="shopping-nav" to="/shoppingbag">Shopping Bag</NavLink></li> */}
+        {/* {/* <li className='nav-link'><NavLink className="shopping-nav" to="/shoppingbag">Shopping Bag</NavLink></li> */}
       </ul>
       </div>
     )
