@@ -7,9 +7,9 @@
 .header-container .topnav {
     position: absolute;
     z-index: 999;
-    color: lightgrey;
     margin-left: 30px;
     display: flex;
+    color: black;
 }
 
 .right-arrow {
@@ -21,7 +21,7 @@
     margin-left: 40.7em;
     height: 1px;
     cursor: pointer;
-    border: solid lightgrey;
+    border: solid black;
     border-width: 0 2.5px 2.5px 0;
     padding: 3px;
     transform: rotate(-45deg);
@@ -35,6 +35,9 @@
 .header-container .topnav .title-header {
     margin-right: 14em;
     font-size: 40px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
     margin-block-start: 0;
     margin-top: 10px;
 }
@@ -78,7 +81,7 @@
 .drop-down-cont .burger-drop-menu .active {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     
 }

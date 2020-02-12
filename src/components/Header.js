@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Switch, Route, NavLink } from 'react-router-dom'
+import { Switch, Route, NavLink} from 'react-router-dom'
 import HamburgerMenu from 'react-hamburger-menu'
 import '../styles/header.css'
 
@@ -53,7 +53,9 @@ class Header extends Component {
     return (
       <div className='header-container'>
         <div className='topnav'>
+          <NavLink to="/">
           <h1 className='title-header'>Rouge</h1>
+          </NavLink>
           <i className="right-arrow" aria-hidden="true"></i>
           <p className='disc-container'>15% off first order</p>
           <div className='hamburger-menu'>
